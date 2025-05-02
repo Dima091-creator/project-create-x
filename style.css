@@ -1,0 +1,251 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.main {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FEDCD1;
+    height: 1080px;
+    width: 1920px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    width: 1230px;
+    height: 52px;
+    top: 20px;
+    left: 345px;
+}
+
+.nav-links {
+    position: relative;
+    display: flex;
+    width: 432;
+    height: 26px;
+    top: 13px;
+    left: 60px;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-btn {
+    display: flex;
+    position: relative;
+    width: 386;
+    height: 52;
+    left: 222px;
+    gap: 36px;
+}
+
+.consultation {
+    position: relative;
+    display: flex;
+    width: 207;
+    height: 52px;
+    border-radius: 4px;
+    gap: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgba(255, 63, 58, 1);
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+}
+.consultation a {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    vertical-align: middle;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.login {
+    width: 143;
+    height: 26px;
+    gap: 8px;
+    padding-top: 13px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: rgba(66, 69, 81, 1);
+}
+.login img {
+    position: relative;
+    bottom: 1px;
+    width: 20;
+    height: 20px;
+}
+
+.logo h1{
+    position: relative;
+    font-family: Lato;
+    width: 130;
+    height: 21.999998092651367px;
+    bottom: 7px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: rgba(255, 63, 58, 1);
+}
+
+.consultation:hover {
+    border: 2px solid rgba(255, 63, 58, 1);
+    background-color: white;
+    color: black;
+}
+
+.play-video {
+    position: relative;
+    display: flex;
+    width: 172;
+    height: 84px;
+    top: 212px;
+    left: 329px;
+}
+
+.play-video p {
+    position: relative;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    width: 88;
+    height: 21px;
+    top: 16px;
+}
+
+.head-text {
+    position: relative;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    vertical-align: middle;
+    width: 496;
+    height: 249;
+    top: 224px;
+    left: 344px;
+}
+
+.head-btn {
+    position: relative;
+    display: flex;
+    width: 373;
+    height: 52px;
+    top: 280px;
+    left: 344px;
+    gap: 24px;
+}
+
+.about-btn {
+    position: relative;
+    width: 148;
+    height: 52;
+    gap: 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: 2px solid rgba(255, 63, 58, 1);
+    color: rgba(255, 63, 58, 1);
+    background-color: #FEDCD1;
+    transition: ease;
+}
+
+.about-btn:hover {
+    background-color: rgba(255, 63, 58, 1);
+    color: white;
+}
+
+.explore-btn {
+    width: 201;
+    height: 52;
+    gap: 10px;
+    border-radius: 4px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: white; 
+    border: 2px solid rgba(255, 63, 58, 1); 
+    background-color: rgba(255, 63, 58, 1); 
+    transition: ease; 
+}
+
+.explore-btn:hover {
+    background-color: #FEDCD1;
+    color: rgba(255, 63, 58, 1);
+}
+
+.illustration {
+    position: relative;
+    width: 602;
+    height: 551;
+    top: -200px;
+    left: 1020px;
+}
+.statistics {
+    position: relative;
+    display: flex;
+    width: 1231;
+    height: 60px;
+    top: -100px;
+    left: 345px;
+    gap: 66px;
+}
+
+.students {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 257;
+    height: 60px;
+    gap: 12px;
+}
+
+.students h1 {
+    position: relative;
+    width: 107;
+    height: 60px;
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.students p {
+    position: relative;
+    width: 138;
+    height: 26px;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+}
